@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.game{
+    background: url('https://wallpaperset.com/w/full/1/0/a/404580.jpg');
+    width:100%;
+    height:750px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+  
+  .score {
+    font-size: 500px;
+    z-index: 20;
+    font-family: arial;
+    color: #cddc3961;
+    user-select: none;
+    width: 100%;
+    text-align: center;
+}
+  
+  .box{
+    
+    width: 100px;
+    height:100px;
+    position:absolute;
+    top: -150px;
+    transition: transform 1.5s linear;
+    cursor: pointer;
+    z-index:100;
+  }
+  
+  .move{
+     transform:translateY(120vh);
+  }
+  
+  .counter{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: arial;
+    color: #000c00;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 43px;
+    position: relative;
+    z-index: 9999;
+  }
+  #name{
+    height: 5vw;
+    border-radius: 37px;
+    background-color: #fefe46ad;
+    border: 0px;
+    color: #612a2a;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+  }
+  .submit{
+    margin-left: 124px;
+    height: 4vh;
+    width: 7vw;
+    background-color: #fefc498c;
+    border-radius: 32px;
+    border: 1px;
+    box-shadow: 0px 0px 11px 7px #10305d;
+  }
+  .submit:hover{
+    margin-left: 124px;
+    height: 4vh;
+    width: 7vw;
+    background-color: red;
+    border-radius: 32px;
+    border: 1px;
+    box-shadow: 0px 0px 11px 7px #10305d;
+  }
+ scoreBoard{
+  background-color: #312520;
+  color: white;
+ }
+ .scorelist{
+  background: linear-gradient(1deg, #e9a408, #5e4407);
+  background-size: 400% 400%;
+  
+  animation: AnimationName 2s ease infinite;
+ }
+  @keyframes AnimationName { 
+      0%{background-position:52% 0%}
+      50%{background-position:49% 100%}
+      100%{background-position:52% 0%}
+  
+ }
