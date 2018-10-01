@@ -11,7 +11,7 @@ function random(min, max) {
 
 function setround() {
  if (Math.round(Math.random())) {
-   return "./img/object.png";
+   return "./img/Pikachu.png";
  } else {
    return "./img/bomb.png";
  }
@@ -29,7 +29,7 @@ function drop() {
  //set data and bg based on data
  thisBox.data("test", Math.round(Math.random()));
  if (thisBox.data("test")) {
-   thisBox.css({ "background": "url('./img/object.png')", "background-size": "contain" });
+   thisBox.css({ "background": "url('./img/Pikachu.png')", "background-size": "contain" });
  } else {
    thisBox.css({ "background": "url('./img/bomb.png')", "background-size": "contain" });
  }
